@@ -37,7 +37,12 @@ class CartViewController: UIViewController {
  
     func goToGroupOrderViewController() {
         navigationController?.pushViewController(GroupOrderViewController(), animated: true)
-        print("test")
+        navigationItem.backBarButtonItem = UIBarButtonItem(title: "Cancel", style: .plain, target: self, action: #selector(goToGroupOrderViewController))
+        UINavigationBar.appearance().backIndicatorImage = UIImage()
+        UINavigationBar.appearance().backIndicatorTransitionMaskImage = UIImage()
+        UIBarButtonItem.appearance().setBackButtonTitlePositionAdjustment(UIOffsetMake(-17, 0), for: UIBarMetrics.default)
+        navigationController?.navigationBar.tintColor = .white
+
     }
     
     // Remove navigation bar from login/sign up screen
