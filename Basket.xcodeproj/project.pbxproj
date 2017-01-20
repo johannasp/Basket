@@ -13,6 +13,7 @@
 		9B0CFA061E31CC2400083C8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B0CFA051E31CC2400083C8E /* Assets.xcassets */; };
 		9B0CFA091E31CC2400083C8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B0CFA071E31CC2400083C8E /* LaunchScreen.storyboard */; };
 		9B0CFA111E31CD2300083C8E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9B0CFA101E31CD2300083C8E /* GoogleService-Info.plist */; };
+		9B0CFA131E31DC4600083C8E /* GroupOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0CFA121E31DC4600083C8E /* GroupOrderViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		9B0CFA081E31CC2400083C8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B0CFA0A1E31CC2400083C8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B0CFA101E31CD2300083C8E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9B0CFA121E31DC4600083C8E /* GroupOrderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupOrderViewController.swift; sourceTree = "<group>"; };
 		A9EB51C8EE6D5792C6E0AEA8 /* Pods_Basket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Basket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF6D35D05D04F14681EC7B1A /* Pods-Basket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Basket.release.xcconfig"; path = "Pods/Target Support Files/Pods-Basket/Pods-Basket.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -80,6 +82,7 @@
 			children = (
 				9B0CF9FE1E31CC2400083C8E /* AppDelegate.swift */,
 				9B0CFA001E31CC2400083C8E /* CartViewController.swift */,
+				9B0CFA121E31DC4600083C8E /* GroupOrderViewController.swift */,
 				9B0CFA051E31CC2400083C8E /* Assets.xcassets */,
 				9B0CFA071E31CC2400083C8E /* LaunchScreen.storyboard */,
 				9B0CFA0A1E31CC2400083C8E /* Info.plist */,
@@ -214,6 +217,7 @@
 			files = (
 				9B0CFA011E31CC2400083C8E /* CartViewController.swift in Sources */,
 				9B0CF9FF1E31CC2400083C8E /* AppDelegate.swift in Sources */,
+				9B0CFA131E31DC4600083C8E /* GroupOrderViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
