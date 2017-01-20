@@ -80,7 +80,5 @@ class GroupOrderViewController: UIViewController  {
         collectionView.backgroundColor = .green
         view.addSubview(collectionView)
     }
-    
-    
 
 }

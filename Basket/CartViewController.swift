@@ -42,7 +42,6 @@ class CartViewController: UIViewController {
         UINavigationBar.appearance().backIndicatorTransitionMaskImage = UIImage()
         UIBarButtonItem.appearance().setBackButtonTitlePositionAdjustment(UIOffsetMake(-17, 0), for: UIBarMetrics.default)
         navigationController?.navigationBar.tintColor = .white
-
     }
     
     // Remove navigation bar from login/sign up screen
