@@ -22,7 +22,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         FIRApp.configure()
         
         window = UIWindow()
-        window?.rootViewController = CartViewController()
+        window?.rootViewController = UINavigationController(rootViewController: CartViewController())
         window?.makeKeyAndVisible()
         
         return true
